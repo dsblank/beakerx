@@ -58,8 +58,6 @@ public class EasyFormView extends Box implements InternalCommWidget{
     this.easyFormName = easyFormName;
     sendUpdate(EASY_FORM_NAME, easyFormName);
   }
-}
-
 
   public String getModelNameValue(){
     return MODEL_NAME_VALUE;
